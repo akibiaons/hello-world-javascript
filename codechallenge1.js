@@ -40,4 +40,6 @@ let car = {color:'Red'};
 console.log(car.color);
 // END OF CHALLENGE E
 //==========================================================================
-// Challenge F will have me write out a method 
+/* Challenge F will have me write out a script that creates an object with
+-a method 'drive' that logs the message, the car is now driving...
+*/
