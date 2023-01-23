@@ -19,3 +19,4 @@ console.log(Math.floor(area));
 let age = 20;
 let name = 'Arthur';
 let isStudent = false;
+console.log(age, name, isStudent); // I added this console.log with each value but the challenge required that I add each console.log(); statement individually...
