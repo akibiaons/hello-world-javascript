@@ -27,5 +27,5 @@ console.log(Math.floor(Math.random()));
 
 console.log(Math.ceil(43.8));
 /*
-The statement above makes
+The statement above returns the smallest integer greater than or equal to a decimal number...
 */
