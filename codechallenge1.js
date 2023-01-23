@@ -32,3 +32,9 @@ a concatenated string of "Hello ${name}";
 console.log(`Hello, ${name}`);
 // END OF CHALLENGE D
 //=====================================================================================x
+/*
+Challenge 5 will utilize objects to create a property
+color and value then finally logging them into the console... 
+*/
+let car = {color:'Red'};
+console.log(car.color);
