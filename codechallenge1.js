@@ -40,3 +40,4 @@ let car = {color:'Red'};
 console.log(car.color);
 // END OF CHALLENGE E
 //==========================================================================
+// Challenge F will have me write out a method 
