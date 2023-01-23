@@ -25,3 +25,8 @@ console.log(name);
 console.log(isStudent);
 // END OF CHALLENGE 1 PT C
 //============================================================================================
+/*Challenge D will start below
+this comment and will use the variables from above to form
+a concatenated string of "Hello ${name}";
+*/
+console.log(`Hello, ${name}`);
