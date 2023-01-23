@@ -23,3 +23,5 @@ let isStudent = false;
 console.log(age);
 console.log(name);
 console.log(isStudent);
+// END OF CHALLENGE 1 PT C
+//============================================================================================
