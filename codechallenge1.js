@@ -15,4 +15,7 @@ let area = pi * (radius * radius);
 console.log(Math.floor(area));
 // END OF CHALLENGE PART B
 //====================================================================================
-
+// For part C the challenge will require that we create three variables and log them to the console.
+let age = 20;
+let name = 'Arthur';
+let isStudent = false;
