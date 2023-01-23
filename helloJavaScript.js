@@ -24,3 +24,8 @@ round the number down
 */
 console.log(Math.floor(Math.random()));
 //This makes sure that the number is a whole number
+
+console.log(Math.ceil(43.8));
+/*
+The statement above makes
+*/
