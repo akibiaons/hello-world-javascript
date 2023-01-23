@@ -30,3 +30,5 @@ this comment and will use the variables from above to form
 a concatenated string of "Hello ${name}";
 */
 console.log(`Hello, ${name}`);
+// END OF CHALLENGE D
+//=====================================================================================x
