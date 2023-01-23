@@ -8,9 +8,8 @@ Part B will require that we use comments to explain a script that calculates the
 radius of 5.
 */
 // The two lines below calculate the area of a circile with a radius of 5
-const radius = 5;
+const radius = 4;
 const pi = 3.14;
 
-function circleArea (pi, radius, area) {
-    
-}
+let area = pi * (radius * radius);
+console.log(Math.floor(area));
