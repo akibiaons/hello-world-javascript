@@ -33,8 +33,10 @@ console.log(`Hello, ${name}`);
 // END OF CHALLENGE D
 //=====================================================================================x
 /*
-Challenge 5 will utilize objects to create a property
+Challenge E will utilize objects to create a property
 color and value then finally logging them into the console... 
 */
 let car = {color:'Red'};
 console.log(car.color);
+// END OF CHALLENGE E
+//==========================================================================
