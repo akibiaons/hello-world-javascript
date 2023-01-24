@@ -43,8 +43,10 @@ console.log(car.color);
 /* Challenge F will have me write out a script that creates an object with
 -a method 'drive' that logs the message, the car is now driving...
 */
+/*
 let carStatus = function() {
     car.status('drive') = function() {
         return 'The car is now driving';
     }
 };
+Above was attemp #1 at challenge F*/
