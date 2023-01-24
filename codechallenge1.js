@@ -77,3 +77,30 @@ let month = date.getMonth() + 1;
 let day = date.getDate();
 let year = date.getFullYear();
 console.log(`${month},${day},${year}`);
+//Below us a luhun algorithim......
+function isValidLuhn(number) {
+    let sum = 0;
+    let digit = 0;
+    let addend = 0;
+    let timesTwo = false;
+  
+    // Process each digit one by one starting at the right
+    for (let i = number.length - 1; i >= 0; i--) {
+      digit = parseInt(number.charAt(i));
+  
+      // Multiply digits by 2 and add digits if product is more than 9
+      if (timesTwo) {
+        addend = digit * 2;
+        if (addend > 9) {
+          addend -= 9;
+        }
+      } else {
+        addend = digit;
+      }
+      sum += addend;
+      timesTwo = !timesTwo;
+    }
+  
+    // Return true if sum is divisible by 10, false otherwise
+    return sum % 10 === 0;
+  };  
