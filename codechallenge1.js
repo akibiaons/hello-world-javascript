@@ -65,4 +65,15 @@ we finally called the method by using the variable name,
 a dot operator, followed by out new method...
 */
 // END OF CHALLENGE F =====================================================================
-/**/
+/*
+Challenge G will have me practice using some of the built in objects
+that come with JavaScript...
+
+I will be making a script that creates a Date object representing the 
+current date and time and logs the date in MM/DD/YYYY format...
+*/
+let date = new Date();
+let month = date.getMonth() + 1;
+let day = date.getDate();
+let year = date.getFullYear();
+console.log(`${month},${day},${year}`);
