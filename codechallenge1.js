@@ -50,3 +50,17 @@ let carStatus = function() {
     }
 };
 Above was attemp #1 at challenge F*/
+// Below is the answer 
+let carStatus = {
+    drive: function() {
+        console.log('The car is now driving');
+    }
+};
+carStatus.drive();
+/*
+So we first created a variable with let and set it equal to
+carStatus, then made created drive as a method and made a 
+function that would print console.log('The car is now driving');
+we finally called the method by using the variable name,
+a dot operator, followed by out new method...
+*/
