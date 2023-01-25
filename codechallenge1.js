@@ -138,3 +138,7 @@ console.log(randomNum());
 The next challenge will test my ability to
 use properties and methods 
 */
+const dog = {
+  breed: 'Doberman',
+  bark: 'Woof, Woof'
+}
