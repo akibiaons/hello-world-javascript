@@ -62,3 +62,15 @@ console.log(person.name + person.age + person.city);
 I messed around and concatenated the objects but 
 the printed results were super close together.
 */
+console.log(person.name);
+console.log(person.age);
+console.log(person.city);
+/* 
+The console.log(); statements above will indivi
+-dually print the objects to the console sepera
+-tly not concatenated...
+*/
+function personalId (name, age, city) {
+    return `The subject is ${name}, they are ${age}, and were last seen in ${city}.`;
+}
+console.log(personalId('Arthur', '20', 'San Diego'));
