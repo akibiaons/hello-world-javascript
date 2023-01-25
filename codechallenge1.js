@@ -123,3 +123,14 @@ let sum = {
   num2: 10
 }
 console.log(sum.num1 + sum.num2);
+
+/*
+In the next challenge I will generate a random number
+-between 1 and 100, then round it to the nearest whole
+number and log the result to the console...
+*/
+const randomNum = () => {
+  return Math.floor(Math.random() * 100);
+};
+console.log(randomNum());
+// Challenge completed...
