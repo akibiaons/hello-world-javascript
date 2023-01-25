@@ -136,5 +136,5 @@ console.log(randomNum());
 // Challenge completed...
 /* 
 The next challenge will test my ability to
-
+use properties and methods 
 */
