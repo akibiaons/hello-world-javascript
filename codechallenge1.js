@@ -140,5 +140,6 @@ use properties and methods
 */
 const dog = {
   breed: 'Doberman',
-  bark: 'Woof, Woof'
+  bark: 'Woof!, Woof!'
 }
+console.log(dog.bark);
