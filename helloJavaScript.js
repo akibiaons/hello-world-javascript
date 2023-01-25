@@ -75,7 +75,7 @@ function personalId (name, age, city) {
 }
 console.log(personalId('Arthur', '20', 'San Diego'));
 
-// For the ChatGpt code challenge I will create an object called person with properties of "age", "age", and "gender".
+// For the ChatGpt code challenge I will create an object called person with properties of "name", "age", and "gender".
 let personOne = {
     name: 'Elijah Wilson',
     age: 20,

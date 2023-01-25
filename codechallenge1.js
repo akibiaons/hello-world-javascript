@@ -1,5 +1,5 @@
 // The first challenge is to log "Hello World my name is ${name} into the console with console.log();"
-console.log('Hello World my name is Arthur');
+console.log('Hello World my name is Arthur'); 
 // END OF CODE CHALLENGE A FOR CODECHALLENGE 1:
 //===============================================================================
 
@@ -123,7 +123,18 @@ let sum = {
   num2: 10
 }
 console.log(sum.num1 + sum.num2);
-
+// Above was the first try, I jut used concatenation Below is offical
+let calculor = {
+  add: function (a, b) {
+    return a + b;
+  }
+};
+console.log(calculator.add(3, 4));
+/* 
+The difference between my original code and the solution code is the ability
+to change the parameters to any number. This can be any number, unlike switching
+the variables like i originally did.
+*/
 /*
 In the next challenge I will generate a random number
 -between 1 and 100, then round it to the nearest whole
