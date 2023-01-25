@@ -12,3 +12,4 @@ these brackets --> [].
 
 // An array can also be shared to a variable as seen below:
 let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to juggle'];
+console.log(newYearsResolutions);
