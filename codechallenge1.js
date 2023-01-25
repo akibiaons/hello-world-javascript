@@ -104,3 +104,12 @@ function isValidLuhn(number) {
     // Return true if sum is divisible by 10, false otherwise
     return sum % 10 === 0;
   };  
+
+  // A basic function with three parameters that logs the sum of all the parameters...
+  function argCheck(parameter1, parameter2, parameter3) {
+    console.log(parameter1, parameter2, parameter3);
+  } 
+  //Function with extra arguments, 
+  argCheck(parameter1, parameter2, parameter3, parameter4, parameter5);
+  console.log(argCheck(1, 2, 3, 4, 5));
+  
