@@ -106,10 +106,20 @@ function isValidLuhn(number) {
   };  
 
   // A basic function with three parameters that logs the sum of all the parameters...
+  /*
   function argCheck(parameter1, parameter2, parameter3) {
     console.log(parameter1, parameter2, parameter3);
   } 
   //Function with extra arguments, 
   argCheck(parameter1, parameter2, parameter3, parameter4, parameter5);
   console.log(argCheck(1, 2, 3, 4, 5));
-  
+  */
+/*
+Below I will create an object named calculator with a method add that takes in two numbers
+- and returns the sum of both numbers..
+*/
+let sum = {
+  num1: 8,
+  num2: 10
+}
+console.log(sum.num1 + sum.num2);
