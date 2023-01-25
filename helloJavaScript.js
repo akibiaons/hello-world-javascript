@@ -74,3 +74,5 @@ function personalId (name, age, city) {
     return `The subject is ${name}, they are ${age}, and were last seen in ${city}.`;
 }
 console.log(personalId('Arthur', '20', 'San Diego'));
+
+// For the ChatGpt code challenge I will create an object called person with properties of "age", "age", and "gender".
