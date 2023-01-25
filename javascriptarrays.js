@@ -32,3 +32,4 @@ Below is an example with comments:
 */
 let cities = ['New York' /*New York is index 0*/, 'San Francisco'/*SF is index 1*/, 'Chicago'/*Chicago is index 2*/];
 cities[0] // 0 is an index number which contains the string 'New York'...
+// You can also access specific characters in a string using bracket notation and the index 
