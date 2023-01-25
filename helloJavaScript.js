@@ -46,3 +46,19 @@ new Int8Array([257, -257]); // Int8Array(1) [ 1, -1 ]
 // -257 = 1110 1111 1111 = 1111 1111 (mod 2^8) = -1 (as signed integer)
 new Uint8Array([257, -257]); // Uint8Array(1) [ 1, 255 ]
 // -257 = 1110 1111 1111 = 1111 1111 (mod 2^8) = 255 (as unsigned integer)
+
+/*
+The code below creates an object that can be called in 
+with the 'dot' operator '.'
+*/
+let person = {
+    name: 'Art',
+    age: 20,
+    city: 'San Diego'
+}
+//Below we will call the object with the dot.
+console.log(person.name + person.age + person.city);
+/*
+I messed around and concatenated the objects but 
+the printed results were super close together.
+*/
