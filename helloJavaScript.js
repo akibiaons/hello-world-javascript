@@ -76,3 +76,11 @@ function personalId (name, age, city) {
 console.log(personalId('Arthur', '20', 'San Diego'));
 
 // For the ChatGpt code challenge I will create an object called person with properties of "age", "age", and "gender".
+let personOne = {
+    name: 'Elijah Wilson',
+    age: 20,
+    gender: 'Male'
+}
+console.log(personOne.name);
+console.log(personOne.age);
+console.log(personOne.gender);
