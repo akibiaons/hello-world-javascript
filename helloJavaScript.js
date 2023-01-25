@@ -4,7 +4,7 @@ const helloWorld = (name) => {
     return `Hello ${name}`;
 };
 
-console.log(helloWorld(Arthur));
+console.log(helloWorld());
 // The code above should print my name...
 // It is a classic excersie I use to double check and practice my 
 //-finctions on, I will be making it harder now...
