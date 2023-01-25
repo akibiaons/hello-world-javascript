@@ -141,5 +141,31 @@ use properties and methods
 const dog = {
   breed: 'Doberman',
   bark: 'Woof!, Woof!'
-}
+};
 console.log(dog.bark);
+/*
+In this next challenge I will utilize my knowl
+-edge of properties, methods, and built in objects to
+create an object named book with two proeprties
+titled 'title' and 'author' and a method 'displayInfo'
+that takes the title of the author and logs
+"Title: 'title' Author"
+*/
+const book = {
+  title: 'Amoung Us',
+  author: 'Sussy Gus',
+  displayInfo(){
+    console.log(`Title: ${this.title}, Author: ${this.author}`);
+  }
+};
+console.log(book.displayInfo());
+
+/*
+const book = {
+  title: 'Amoung Us',
+  author: 'Sussy Gus',
+  get getLatest () {
+    return this.title;
+  }
+};
+*/
