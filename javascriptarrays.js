@@ -99,3 +99,15 @@ chores.push('got to gym at 5am', 'go to work at 3pm');
 console.log(chores); // Will print out ['do dishes', 'javascripr syntax', 'clean clothes', 'got to gym at 5am', 'go to work at 3pm']
 // END OF LESSON 6: THE PUSH .push() METHOD
 //==============================================================================================================================================================================
+// START OF LESSON 7: The .pop() Method
+/*
+- .pop() does sort of the opposite of .push() as it removes the last item of an array.
+*/
+const newItemTracker = ['item 0', 'item 1', 'item 2'];
+// Above we declare a const variable newItemTracker to assign to an array...
+const removed = newItemTracker.pop();
+// Above we create a removed const variable assigned to newItemTracker.pop() to retain the items that were popped out of the array...
+console.log(newItemTracker);
+// Above we print the newItemTracker array which shows ['item 0', 'item 1'] no longer having item 3...
+console.log(removed);
+// Item 3 is showdn since we assigned a variable to the popped items..
