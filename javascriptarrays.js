@@ -61,4 +61,8 @@ console.log(condiments);
 condiments = ['Mayo'];
 console.log(condiments);
 
-let utencils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+//The next step will be to reassign the last element in the utensils to a value of 'Spoon'
+let utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+utensils[3] = 'Spoon';
+console.log(utensils);
