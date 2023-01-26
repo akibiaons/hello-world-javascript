@@ -82,3 +82,18 @@ console.log(newYearsResolutions1.length);
 - We also log length of the new years resolution to the console
 - The output is two since our array only has two elements...
 */
+//END OF LESSON 5: THE .length PROPERTY
+//==============================================================================================================================================================================
+// START OF LESSON 6: THE .push() METHOD 
+/*
+- The .push() method is used to add additional elements to the end of the array.
+- Below we will access the .push() method with '.' notation and connect push to item tracker 
+- We then call the .itemtracker much like a function.
+- .push() can take in one to multiple arguments...
+- .push() can really mutate an array by adding elements to it as seen below:
+*/ 
+const chores = ['do dishes', 'javascripr syntax', 'clean clothes'];
+console.log(chores); // will print the 3 strings in the array above...
+
+chores.push('got to gym at 5am', 'go to work at 3pm');
+console.log(chores); // Will print out ['do dishes', 'javascripr syntax', 'clean clothes', 'got to gym at 5am', 'go to work at 3pm']
