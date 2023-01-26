@@ -51,4 +51,7 @@ console.log(seasons[2] = 'Nuclear Winter'); //Output will be Nuclear Winter...
 - Variables, such as let and const can be declared and assigned to an array.
 - Elements with an array that have been delcared with a const keyword can be changed. However, the array itself
 can not be assigned a new value.
+- Pay close attention to the utencils and condiments array below ---->>>>
 */
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha', ];
+let utencils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
