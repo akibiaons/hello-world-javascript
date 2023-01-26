@@ -34,5 +34,5 @@ let cities = ['New York' /*New York is index 0*/, 'San Francisco'/*SF is index 1
 cities[0] // 0 is an index number which contains the string 'New York'...
 // You can also access specific characters in a string using bracket notation and the index.
 const hi = 'Hello World';
-console.log(hi[6]);
+console.log(hi[4]);
 // Output: W, If i add spacing and , it will pick them up as characters too...
