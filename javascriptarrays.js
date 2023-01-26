@@ -97,3 +97,5 @@ console.log(chores); // will print the 3 strings in the array above...
 
 chores.push('got to gym at 5am', 'go to work at 3pm');
 console.log(chores); // Will print out ['do dishes', 'javascripr syntax', 'clean clothes', 'got to gym at 5am', 'go to work at 3pm']
+// END OF LESSON 6: THE PUSH .push() METHOD
+//==============================================================================================================================================================================
