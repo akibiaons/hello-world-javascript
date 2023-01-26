@@ -54,4 +54,11 @@ can not be assigned a new value.
 - Pay close attention to the utencils and condiments array below ---->>>>
 */
 let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha', ];
+// The first step is to reassign index[0] = 'Mayo' then print out the entire array with the .log() method...
+condiments[0] = 'Mayo';
+console.log(condiments);
+
+condiments = ['Mayo'];
+console.log(condiments);
+
 let utencils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
