@@ -66,3 +66,14 @@ let utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 
 utensils[3] = 'Spoon';
 console.log(utensils);
+//END OF LESSON FOUR: ARRAYS WITH LET AND CONST.....
+//==============================================================================================================================================================================
+// START OF LESSON 5: THE .LENGTH PROPERTY
+/* 
+- One of an array's built in objects is the .length() proeprty, which returns the number of items in the array. 
+- The length property is activated by using the dot '.' operator, same way we do with strings..
+*/
+const newYearsResolutions1 = ['Get 10% Bodyfat', 'Journal Daily'];
+
+console.log(newYearsResolutions1.length);
+// Output: 2 
