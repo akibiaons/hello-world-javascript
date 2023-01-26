@@ -77,3 +77,8 @@ const newYearsResolutions1 = ['Get 10% Bodyfat', 'Journal Daily'];
 
 console.log(newYearsResolutions1.length);
 // Output: 2 
+/*
+- We use the dot notation, chaining a '.' period with the property name to the array to access the length property of the new years resolution array
+- We also log length of the new years resolution to the console
+- The output is two since our array only has two elements...
+*/
