@@ -25,3 +25,13 @@ console.log(bodyWeight[0]); // Should output 160
 let bodyWeight1 = 'The man weighs 160lbs';
 console.log(bodyWeight1[0]);
 // So in the code above, I didn't have the string in the [] array box, wtf...
+
+/*
+Below will be more JavaScript part one challenges....
+
+- This next challenge below will have me printing all numbers from 0 - 10...
+*/
+const randomNumberto10 = (num) => { 
+    return Math.floor(Math.random() * 10);
+};
+console.log(randomNumberto10()); // Will print a random number between 0 - 10
