@@ -15,9 +15,7 @@ console.log(newYearsResolutions);
 //=========================================================================================================
 
 // START OF LESSON TWO: ACCESSING ELEMENTS
-
 /*
-
 - Each element has an 'index' which is some sort of reference point based on its position
 in the function. Elements can be accessed based on their index.
 
@@ -110,4 +108,4 @@ const removed = newItemTracker.pop();
 console.log(newItemTracker);
 // Above we print the newItemTracker array which shows ['item 0', 'item 1'] no longer having item 3...
 console.log(removed);
-// Item 3 is showdn since we assigned a variable to the popped items..
+// Item 3 is shown since we assigned a variable to the popped items...
