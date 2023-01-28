@@ -156,3 +156,4 @@ const array2 = [[10, 15], [20, 25]]; // Here is an example of a nested array
 console.log(array2[1]); //Will print [20, 25] to the console.
 // If we want to access elements within we could use a chain which is just a [] seperating which element we would like to select.
 console.log(array2[0][1]); //Out put will be 15 because it's index 1 within index 0 if that makes sense.
+// END OF ARRAYS LESSONZ...
