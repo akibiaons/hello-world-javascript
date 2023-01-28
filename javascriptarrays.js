@@ -110,3 +110,4 @@ console.log(newItemTracker);
 console.log(removed);
 // Item 3 is shown since we assigned a variable to the popped items...
 // END OF LESSON 6: THE PUSH .push() METHOD
+//==============================================================================================================================================================================
