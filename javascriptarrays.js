@@ -149,3 +149,10 @@ console.log(flowers); //This prints out lily to the end, but if I had added it b
 // END OF EXAMPLE 9: Arrays & Functions
 //==============================================================================================================================================================================
 // START OF LESSON 10: Nested Arrays
+
+// Arrays can store other arrays within them. See below.
+const array2 = [[10, 15], [20, 25]]; // Here is an example of a nested array
+// To access the index with nested arrays we could use brackets just like before.
+console.log(array2[1]); //Will print [20, 25] to the console.
+// If we want to access elements within we could use a chain which is just a [] seperating which element we would like to select.
+console.log(array2[0][1]); //Out put will be 15 because it's index 1 within index 0 if that makes sense.
