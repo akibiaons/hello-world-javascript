@@ -139,3 +139,10 @@ function addFlower (arr) {
 };
 addFlower(flowers); //This connects the .push to the flowers array and adds lily to the end, since I was wondering where the connection is...
 console.log(flowers); //This prints out lily to the end, but if I had added it before the addFlower(flower); statement it would not have printed
+
+/*
+ - In the code above, the flowers array has 3 elements.
+ - The function addFlower has a parameter of array and uses .push() to push in the string 'lily'
+ - We then call addFlower with flowers as an argument to connect the two, and execute the code inside of addFlower
+ - we finally call the console which shows the included 'lily' element..
+ */
