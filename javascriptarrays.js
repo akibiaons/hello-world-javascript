@@ -138,4 +138,4 @@ function addFlower (arr) {
     arr.push('lily');
 };
 addFlower(flowers); //This connects the .push to the flowers array and adds lily to the end, since I was wondering where the connection is...
-console.log(flowers);
+console.log(flowers); //This prints out lily to the end, but if I had added it before the addFlower(flower); statement it would not have printed
