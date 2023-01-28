@@ -128,3 +128,14 @@ const pastaIndex = groceryItem.indexOf('pasta');
 console.log(pastaIndex);
 // END OF LESSON 8: More Array Methods
 //==============================================================================================================================================================================
+// START OF LESSON 9: Arrays & Functions
+/*
+- Throughout the lesson we went over arrays being mutable or changeable. What happens if we try
+to change an array within a function? We'll find out with the code below:
+*/
+const flowers = ['Dafidil', 'Rose', 'Venus Trap'];
+function addFlower (arr) {
+    arr.push('lily');
+};
+addFlower(flowers); //This connects the .push to the flowers array and adds lily to the end, since I was wondering where the connection is...
+console.log(flowers);
