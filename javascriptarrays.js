@@ -90,7 +90,7 @@ console.log(newYearsResolutions1.length);
 - .push() can take in one to multiple arguments...
 - .push() can really mutate an array by adding elements to it as seen below:
 */ 
-const chores = ['do dishes', 'javascripr syntax', 'clean clothes'];
+const chores = ['do dishes', 'javascript syntax', 'clean clothes'];
 console.log(chores); // will print the 3 strings in the array above...
 
 chores.push('got to gym at 5am', 'go to work at 3pm');
@@ -109,5 +109,15 @@ console.log(newItemTracker);
 // Above we print the newItemTracker array which shows ['item 0', 'item 1'] no longer having item 3...
 console.log(removed);
 // Item 3 is shown since we assigned a variable to the popped items...
-// END OF LESSON 6: THE PUSH .push() METHOD
+// END OF LESSON 7: THE POP .pop() METHOD
 //==============================================================================================================================================================================
+// START OF LESSON 8: More Array Methods
+/*
+ - There are many more array methods avaliable on the MDN JavaScript documentation...
+ - .pop() and .push() mutate the arrays on which they are called, but sometimes you may not want to mutate the array.
+ - Below I will use the .slice() method to quickly take out a few items from the groceryItem array.
+*/
+const groceryItem = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+console.log(groceryItem.slice(1, 4, 5, 6));
+// In the two lines above I used the .slice() method to remove all items that were not bananas, coffee beans, or brown rice
+// The .slice() method uses the indexed # to take out cetrain elements...
