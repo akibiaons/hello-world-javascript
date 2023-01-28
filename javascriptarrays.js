@@ -120,4 +120,11 @@ console.log(removed);
 const groceryItem = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
 console.log(groceryItem.slice(1, 4, 5, 6));
 // In the two lines above I used the .slice() method to remove all items that were not bananas, coffee beans, or brown rice
-// The .slice() method uses the indexed # to take out cetrain elements...
+// The .slice() method uses the indexed # to take out cetrain elements....slice() is a non mutating method.
+
+
+/*
+Below we will use the .indexOf() method
+*/
+const pastaIndex = groceryItem.indexOf('pasta');
+console.log(pastaIndex);
