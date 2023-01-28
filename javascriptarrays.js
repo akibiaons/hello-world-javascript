@@ -146,3 +146,6 @@ console.log(flowers); //This prints out lily to the end, but if I had added it b
  - We then call addFlower with flowers as an argument to connect the two, and execute the code inside of addFlower
  - we finally call the console which shows the included 'lily' element..
  */
+// END OF EXAMPLE 9: Arrays & Functions
+//==============================================================================================================================================================================
+// START OF LESSON 10: Nested Arrays
