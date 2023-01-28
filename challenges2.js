@@ -39,10 +39,8 @@ console.log(randomNumberto10()); // Will print a random number between 0 - 10
 // The second challenge of the day is to print a multiplication table...
 console.log('Multiplication Table for 1 - 10 Is Below');
 
-
-
-/* Commented out the first attempt because I just started without doing any planning...
-const multiplesArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const multiplicationTable = () => {
+// let subjectNumber = 10 //This can be changed to any number from 1 - 10;
+const multiplierBox = (subjectNumber, multiplier) => {
+    return `${subjectNumber} * ${multiplier} = ` + subjectNumber * multiplier;
 };
-*/
+console.log(multiplierBox(10, 1)); // Change the values in the (#,#) to use the calculator...
