@@ -45,3 +45,13 @@ const multiplierBox = (subjectNumber, multiplier) => {
 };
 console.log(multiplierBox(137, 28)); // Change the values in the (#,#) to use the calculator...
 // END OF DAILY CHALLENGE 1/28/23....
+
+// Start of daily challenge 1/29/23
+// Today I will be making a length converter function to take kilometers and convert them to miles
+// One mile = 1.60 kilometers....
+// const miles = 2; // The amount of miles to be converted
+const milesToKilometers = (miles) => {
+    return Math.floor(miles * 1.60);
+};
+console.log(milesToKilometers(10)); // Should output 16
+// End of daily challenge 1/29/23
