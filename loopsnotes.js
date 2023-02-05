@@ -38,3 +38,16 @@ for (let sample = 5; sample < 10; sample++) {
     console.log(sample);
 };
 // I messed up by not commenting out the last excersises comments...it kept printing out the first for loop and the second for loop at the same time.
+// END OF LESSON 2: The For Loop
+//===================================================================================================================================================
+//START OF LESSON 3: Looping in Reverse
+/*
+- What if we want to loop in reverse? We want the console to print out 3, 2, 1, 0?
+- To run a for loop in reverse we must meet three conditions.
+
+1.) The first is to set the iterator variable to the highest (max) value. 
+
+2.) Second is to set the stopping condition for when the iterator variable is less than the desired amount.
+
+3.) Third is to decrease the iterator after each iteration...
+*/
