@@ -19,5 +19,18 @@ console.log(cities[3]);
 
 // LESSON 2: The For Loop
 /*
-- 
+- Instead of writing code over and over like the example above, we can use a loop to repeat a given block of code on its own.
+- The typical four loop contains an iterator variable that usually appears in all three expressions. 
+- The iterator variable is initialized then checked against the stopping condition, and assigned a new value on each loop iteration. 
+iterator variables can have any name, but it's best to use them with a descriptive variable. 
+*/
+// Below is an example for loop:
+for (let counter = 0; counter < 4; counter++) {
+  console.log(counter);  
+}; // See npx nodemon loopsnotes.js for the output
+/* Breaking down the for loop above.
+- The INITIALIZATION is ('let counter = 0'); so the loop will start counting at 0
+- The stopping condition is counter < 4; which means that the loop will run as long as the iterator variable (counter) is less than 4
+- The iteration statement is counter++. This means that the value of counter will increase by 1, which starts at 0 and so on.
+- The code blocks inside the bracket will log to the console the value of the loop once it evaluates to false.
 */
