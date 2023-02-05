@@ -26,7 +26,7 @@ iterator variables can have any name, but it's best to use them with a descripti
 */
 // Below is an example for loop:
 for (let counter = 0; counter < 4; counter++) {
-  console.log(counter);  
+  //console.log(counter);  
 }; // See npx nodemon loopsnotes.js for the output
 /* Breaking down the for loop above.
 - The INITIALIZATION is ('let counter = 0'); so the loop will start counting at 0
@@ -34,3 +34,7 @@ for (let counter = 0; counter < 4; counter++) {
 - The iteration statement is counter++. This means that the value of counter will increase by 1, which starts at 0 and so on.
 - The code blocks inside the bracket will log to the console the value of the loop once it evaluates to false.
 */
+for (let sample = 5; sample < 10; sample++) {
+    console.log(sample);
+};
+// I messed up by not commenting out the last excersises comments...it kept printing out the first for loop and the second for loop at the same time.
