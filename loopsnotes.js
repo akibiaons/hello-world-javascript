@@ -56,3 +56,5 @@ for (let counter = 3; counter >= 0  ; counter--){
     console.log(counter);
   };
 // I wasn't adding the = to the >= in the code above so the exsercise didn't register as complete even though the console had logged the correct response.
+// END OF LESSON 3: Looping in Reverse
+//===================================================================================================================================================
