@@ -35,7 +35,7 @@ for (let counter = 0; counter < 4; counter++) {
 - The code blocks inside the bracket will log to the console the value of the loop once it evaluates to false.
 */
 for (let sample = 5; sample < 10; sample++) {
-    console.log(sample);
+    //console.log(sample);
 };
 // I messed up by not commenting out the last excersises comments...it kept printing out the first for loop and the second for loop at the same time.
 // END OF LESSON 2: The For Loop
@@ -51,3 +51,8 @@ for (let sample = 5; sample < 10; sample++) {
 
 3.) Third is to decrease the iterator after each iteration...
 */
+// The loop below loops from 0 to 3. Edit it to loop backwards from 3 to 0
+for (let counter = 3; counter >= 0  ; counter--){
+    console.log(counter);
+  };
+// I wasn't adding the = to the >= in the code above so the exsercise didn't register as complete even though the console had logged the correct response.
