@@ -78,3 +78,19 @@ const vacationSpots = ['Paris', 'Beligum', 'France'];
 for (let i = 0; i < vacationSpots.length; i++) {
     console.log(`I would love to visit ${vacationSpots[i]}`);
 };
+// END OF LESSON 4: Looping Through Arrays
+//===================================================================================================================================================
+// START OF LESSON 5: Nested Loops
+/*
+- Nested loops are usefull for comparing elements in two different arrays. They are loops within loops.
+- Below is an example:
+*/
+const myArray = [6, 19, 20];
+const yourArray = [19, 81, 2];
+for (let i = 0; i < myArray.length; i++) {
+    for (let j = 0; j < yourArray.length; j++) {
+        if (myArray[i] === yourArray[j]) {
+            console.log('Both arrays have the number: ' + yourArray[j]);
+        }
+    }
+};
