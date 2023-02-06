@@ -111,6 +111,16 @@ let mutualFollowers = [];
 for (let i = 0; i < bobsFriends.length; i++) {
     for (let j = 0; j < tinasFriends.length; j++){
         if (bobsFriends[i] === tinasFriends[j])
-        console.log(mutualFollowers.push(bobsFriends[i]));
+            console.log(mutualFollowers.push(bobsFriends[i]));
     }
+};
+//END OF LESSON 5: Nested Loops
+//===================================================================================================================================================
+// MORE LOOPS NOTES......
+/*
+ - Below is a basic for loop...
+ - 
+*/
+for (let i = 0; i < 5; i++) {
+    //console.log('loop'); // We will see loop five times in the console.
 };
