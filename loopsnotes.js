@@ -94,3 +94,16 @@ for (let i = 0; i < myArray.length; i++) {
         }
     }
 };
+//Above we have the outer array, {myArray} and the inner array myArray[i], which will run its entirety until it finds a match with an element in the inner array.
+
+/*
+Below we will solve the follwing problem: 'You're a big wig programmer and have been tasked with building a prototype for a mutual followers program. 
+Required are:
+- Two arrays of online friends, from two different users.
+*/
+let bobsFriends = ['Lisa', 'Bart', 'Homer', 'Marge'];
+let tinasFriends = ['Lisa', 'Bart', 'Peter'];
+let mutualFollowers = [];
+/*Below is a nested loop that iterated through bobsFriends as th outer and tinasFriends as the inner. If the current element from the outer loop
+- is the same as the current element from the inner loop, push that element into the mutualFollowers array.
+*/
