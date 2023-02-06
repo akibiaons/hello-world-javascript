@@ -66,3 +66,15 @@ the price of each item on the catalog, without a for loop through an array, this
 SEE CODE Below for an example of looping through an array:
 */
 const arrayExample = ['Element 0', 'Element 1', 'Element 2', 'Element 3'];
+// In order to loop through an array, the for loop must use the array's .length property in its condition.
+for (let i = 0; i < arrayExample.length; i++) {
+    console.log(arrayExample[i]);
+};
+/*
+- In the loop above the iterator is 'i'. A lot of loops use 'i' as a shorthand for index. 
+- Notice the stopping condition checks to see if i is less than animals.length. 
+*/
+const vacationSpots = ['Paris', 'Beligum', 'France'];
+for (let i = 0; i < vacationSpots.length; i++) {
+    console.log(`I would love to visit ${vacationSpots[i]}`);
+};
