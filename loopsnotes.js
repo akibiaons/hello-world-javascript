@@ -61,5 +61,8 @@ for (let counter = 3; counter >= 0  ; counter--){
 // START OF LESSON 4: Looping Through Arrays
 /*
 - For loops can be used to loop over the same operation on each element in an array.
-- Arrays hold lists of data, like customer names or product information. Imagine we owned a store and increased 
+- Arrays hold lists of data, like customer names or product information. Imagine we owned a store and wanted to increased 
+the price of each item on the catalog, without a for loop through an array, this could result in many repeated lines of code.
+SEE CODE Below for an example of looping through an array:
 */
+const arrayExample = ['Element 0', 'Element 1', 'Element 2', 'Element 3'];
