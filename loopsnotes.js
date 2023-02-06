@@ -117,10 +117,10 @@ for (let i = 0; i < bobsFriends.length; i++) {
 //END OF LESSON 5: Nested Loops
 //===================================================================================================================================================
 // MORE LOOPS NOTES......
-/*
- - Below is a basic for loop...
- - 
-*/
+//Below is a basic for loop...
 for (let i = 0; i < 5; i++) {
     //console.log('loop'); // We will see loop five times in the console.
 };
+
+const user = {'firstName': 'John', 'lastName': 'Doe'}
+for (key in user) console.log(user[key]);
