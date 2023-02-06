@@ -7,12 +7,13 @@
 /*
 - Before making loops we must understand that writing the same code over and over agin can vbe tiring as seen below:
 */
-
+/*
 const cities = ['San Diego', 'Bakersfeild', 'San Fransisco', 'Los Angeles'];
 console.log(cities[0]);
 console.log(cities[1]);
 console.log(cities[2]);
 console.log(cities[3]);
+*/
 // Above I console.log(cities[index]); for each and every indexed element. This is a tiresome and non scalable way of programming with JavaScript.
 // END OF LESSON 1: Repeating Tasks Manually.
 //===================================================================================================================================================
@@ -53,7 +54,7 @@ for (let sample = 5; sample < 10; sample++) {
 */
 // The loop below loops from 0 to 3. Edit it to loop backwards from 3 to 0
 for (let counter = 3; counter >= 0  ; counter--){
-    console.log(counter);
+    //console.log(counter);
   };
 // I wasn't adding the = to the >= in the code above so the exsercise didn't register as complete even though the console had logged the correct response.
 // END OF LESSON 3: Looping in Reverse
@@ -68,7 +69,7 @@ SEE CODE Below for an example of looping through an array:
 const arrayExample = ['Element 0', 'Element 1', 'Element 2', 'Element 3'];
 // In order to loop through an array, the for loop must use the array's .length property in its condition.
 for (let i = 0; i < arrayExample.length; i++) {
-    console.log(arrayExample[i]);
+    //console.log(arrayExample[i]);
 };
 /*
 - In the loop above the iterator is 'i'. A lot of loops use 'i' as a shorthand for index. 
@@ -76,7 +77,7 @@ for (let i = 0; i < arrayExample.length; i++) {
 */
 const vacationSpots = ['Paris', 'Beligum', 'France'];
 for (let i = 0; i < vacationSpots.length; i++) {
-    console.log(`I would love to visit ${vacationSpots[i]}`);
+   // console.log(`I would love to visit ${vacationSpots[i]}`);
 };
 // END OF LESSON 4: Looping Through Arrays
 //===================================================================================================================================================
@@ -90,7 +91,7 @@ const yourArray = [19, 81, 2];
 for (let i = 0; i < myArray.length; i++) {
     for (let j = 0; j < yourArray.length; j++) {
         if (myArray[i] === yourArray[j]) {
-            console.log('Both arrays have the number: ' + yourArray[j]);
+            //console.log('Both arrays have the number: ' + yourArray[j]);
         }
     }
 };
@@ -102,8 +103,14 @@ Required are:
 - Two arrays of online friends, from two different users.
 */
 let bobsFriends = ['Lisa', 'Bart', 'Homer', 'Marge'];
-let tinasFriends = ['Lisa', 'Bart', 'Peter'];
+let tinasFriends = ['Lisa', 'Peter'];
 let mutualFollowers = [];
 /*Below is a nested loop that iterated through bobsFriends as th outer and tinasFriends as the inner. If the current element from the outer loop
 - is the same as the current element from the inner loop, push that element into the mutualFollowers array.
 */
+for (let i = 0; i < bobsFriends.length; i++) {
+    for (let j = 0; j < tinasFriends.length; j++){
+        if (bobsFriends[i] === tinasFriends[j])
+        console.log(mutualFollowers.push(bobsFriends[i]));
+    }
+};
