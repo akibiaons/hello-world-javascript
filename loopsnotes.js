@@ -124,3 +124,38 @@ for (let i = 0; i < 5; i++) {
 
 const user = {'firstName': 'John', 'lastName': 'Doe'}
 for (key in user) console.log(user[key]);
+// END OF SCRATCH NOTES FOR JAVASCRIPT
+//===================================================================================================================================================
+// START OF LESSON 6: The While Loop
+
+// A for loop that prints 1, 2, 3.
+for (let counterOne = 0; counterOne < 4; counterOne++) {
+    //console.log(counterOne);
+};
+// A While loop that prints 1, 2, 3.
+let counterTwo = 1;
+while (counterTwo < 4) {
+    console.log(counterTwo);
+    counterTwo++;
+}
+/*
+- Let's break down what's happening with our while loop syntax. 
+- The counterTwo variable is declared before the loop, we can access it within our while loop since it is global scope.
+- We start our loop with the keyword while, which is then followed by the stopping condition and will equate to true or false just like the for loop.
+- Lastly, we have the loop's code block which prints counterTwo and adds increments of ++.
+
+- The best time to apply the while loop is when we don't know in advance how many times the loop should run.
+Below is an example of a card picker while loop
+*/
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
+let currentCard 
+
+while (currentCard !== 'spade') {
+    currentCard
+    = cards[Math.floor(Math.random() * 4)];
+    console.log(currentCard);
+}
+// END OF LESSON 6: The While Loop
+//===================================================================================================================================================//===================================================================================================================================================
+// START OF LESSON 7: 
