@@ -158,4 +158,35 @@ while (currentCard !== 'spade') {
 }
 // END OF LESSON 6: The While Loop
 //===================================================================================================================================================//===================================================================================================================================================
-// START OF LESSON 7: 
+// START OF LESSON 7: Do... While Statements
+/*
+- The do...while statement is useful for when you want a peice of code to run once and loop based on a specific condition after it's initial run.
+- A do...while statement says to do a task once then keep doing it until a certain condition is no longer met.
+*/
+let countString = '';
+let i = 0;
+
+do {
+    countString = countString + i;
+    i++;
+} while (i < 5);
+console.log(countString);
+/*
+- In the example above, the code block makes changes to the countString variable by appending the string from the i variable to it. 
+- The code block after the do keyword is executed once 
+- The condition is evaluated, if true it will execute again, if false the loop will come to an end.
+- WHILE and DO...WHILE are different. 
+*/
+// More examples:
+const firstMessage = 'I will print!';
+const secondMessage = 'I will not print!';
+
+// A do while with a condition that evaluates to false
+do {
+    console.log(firstMessage);
+} while (true === false);
+
+// A while loop with a stopping condition that evaluates to false 
+while (true === false) {
+    console.log(secondMessage);
+};
