@@ -192,3 +192,31 @@ while (true === false) {
 };
 // END OF LESSON 7: Do...while statements
 //===================================================================================================================================================//===================================================================================================================================================
+// START OF LESSON 8: The Break Keyword
+/*
+The break keyword is useful for ending a loop once a certain condition is met. For example:
+-if you plan on spending 180 days looking for a puppy but find one on day 100, you won't spend the 
+-extra 80 days looking for a puppy since your original goal was just to ifnd one. 
+
+Here's an example of the break; keyword used in action...
+*/
+for (let i = 0; i < 99; i++) {
+    if (i > 2) {
+        break;
+    }
+    console.log('Banana.')
+}
+console.log('Woohoo! I broke out of the loop!!');
+/*
+The break; keyword is super useful when looping through large data structures. Test conditions can be added 
+- besides the stopping conditions to exit the loop once they're met.
+*/
+const rapperArray = ['Lil Nas X', 'Biggie Smalls', 'Tupac', 'Jay-Z'];
+
+for (let i = 0; i < rapperArray.length; i++) {
+    //console.log(rapperArray[i]);
+    if (rapperArray[i] === 'Biggie Smalls') {
+        break;
+    }
+}
+console.log('And if you dont know, now you knonw NIGGA');
