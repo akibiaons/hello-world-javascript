@@ -83,7 +83,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
 //===================================================================================================================================================
 // START OF LESSON 5: Nested Loops
 /*
-- Nested loops are usefull for comparing elements in two different arrays. They are loops within loops.
+- Nested loops are useful for comparing elements in two different arrays. They are loops within loops.
 - Below is an example:
 */
 const myArray = [6, 19, 20];
@@ -91,7 +91,7 @@ const yourArray = [19, 81, 2];
 for (let i = 0; i < myArray.length; i++) {
     for (let j = 0; j < yourArray.length; j++) {
         if (myArray[i] === yourArray[j]) {
-            //console.log('Both arrays have the number: ' + yourArray[j]);
+            console.log('Both arrays have the number: ' + yourArray[j]);
         }
     }
 };
@@ -154,7 +154,7 @@ let currentCard
 while (currentCard !== 'spade') {
     currentCard
     = cards[Math.floor(Math.random() * 4)];
-    console.log(currentCard);
+    //console.log(currentCard);
 }
 // END OF LESSON 6: The While Loop
 //===================================================================================================================================================//===================================================================================================================================================
@@ -183,12 +183,12 @@ const secondMessage = 'I will not print!';
 
 // A do while with a condition that evaluates to false
 do {
-    console.log(firstMessage);
+    //console.log(firstMessage);
 } while (true === false);
 
 // A while loop with a stopping condition that evaluates to false 
 while (true === false) {
-    console.log(secondMessage);
+    //console.log(secondMessage);
 };
 // END OF LESSON 7: Do...while statements
 //===================================================================================================================================================//===================================================================================================================================================
@@ -204,9 +204,9 @@ for (let i = 0; i < 99; i++) {
     if (i > 2) {
         break;
     }
-    console.log('Banana.')
+    //console.log('Banana.')
 }
-console.log('Woohoo! I broke out of the loop!!');
+//console.log('Woohoo! I broke out of the loop!!');
 /*
 The break; keyword is super useful when looping through large data structures. Test conditions can be added 
 - besides the stopping conditions to exit the loop once they're met.
