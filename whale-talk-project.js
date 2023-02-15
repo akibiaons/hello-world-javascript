@@ -10,3 +10,20 @@ let input = 'I like latinas!';
 let vowles = ['a', 'e', 'i', 'o', 'u'];
 // Next will be an empty array which we will transfer the translated string to...
 let resultArray = [];
+// The next step will be to iterate a loop through the input variable text 
+for (let i = 0; i < input.length; i++) {
+    //console.log(input[i]);
+    if (input === 'e') {
+        console.log(resultArray.push(input[i]));
+    }
+    if (input === 'u') {
+        console.log(resultArray.push(input[i]));
+    }
+    for (let j = 0; j < vowles.length; j++) {
+        //console.log(vowles[j]);
+        if (input[i] === vowles[j]){
+            console.log(resultArray.push(input[i]));
+        }
+    }
+}
+console.log(resultArray);
