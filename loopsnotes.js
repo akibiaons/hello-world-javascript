@@ -222,3 +222,18 @@ for (let i = 0; i < rapperArray.length; i++) {
 console.log('And if you dont know, now you know');
 // END OF LESSON 8: The break; statement
 //===================================================================================================================================================//===================================================================================================================================================
+// Next notes will be on the FOR...Of Loop
+// START OF LESSON 9: The For...Of Loop
+/*
+- The for loop can be used to iterate over a collection of data. It requires a counter, an iteration
+, and a stopping condition to control the looping. 
+
+- The for loop can be cumbersome to set up, leaves room for errors, and makes it harder to read.
+- The es6 version of JavaScript includes the for...of loop which is a shorter and more consise version of the for loop.
+
+- Below is an example of the normal for loop iterating over an array:
+*/
+const exArray = [1, 2, 3, 4, 5];
+for (let i = 0; i < exArray.length; i++) {
+    console.log(exArray[i]);
+};
