@@ -234,11 +234,40 @@ console.log('And if you dont know, now you know');
 - Below is an example of the normal for loop iterating over an array:
 */
 const hobbies = ['singing', 'reading', 'coding', 'writing'];
-for (let i = 0; i < hobbies.length; i++) {
-    console.log(`I enjoy, ${hobbies[i]}`);
-};
+    for (let i = 0; i < hobbies.length; i++) {
+        console.log(`I enjoy, ${hobbies[i]}`);
+    };
 // Below is the same code as above but in a for...of loop
 const hobbies2 = ['singing','reading', 'coding', 'writing'];
-for (const hobby of hobbies2) {
-    console.log(`I enjoy, ${hobby}`);
-};
+    for (const hobby of hobbies2) {
+        console.log(`I enjoy, ${hobby}`);
+    };
+
+// Both examples print out the following:
+/*
+I enjoy singing.
+I enjoy eating.
+I enjoy quidditch.
+I enjoy writing.
+*/
+// However, the for...of loop has much more simpler syntax than the normal for loop.
+/*
+- One of the benefits of using the for...of loop to iterate through items in an array.
+Below is an example...
+*/
+const fruits= ['oranges', 'apples', 'grapes'];
+    for (const fruit of fruits){
+        console.log(fruit);
+    };
+/*
+The above example prints out the following:
+oranges
+apples
+grapes
+
+Lets break down the example from above:
+1.) In the first snippet we have the fruits array.
+2.) In the second part of our for...of loop: for (const fruit of fruits). We specify that
+we will iterate through the fruits array for each item (fruit) in the array.
+
+*/
