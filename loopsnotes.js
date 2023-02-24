@@ -233,7 +233,12 @@ console.log('And if you dont know, now you know');
 
 - Below is an example of the normal for loop iterating over an array:
 */
-const exArray = [1, 2, 3, 4, 5];
-for (let i = 0; i < exArray.length; i++) {
-    console.log(exArray[i]);
+const hobbies = ['singing', 'reading', 'coding', 'writing'];
+for (let i = 0; i < hobbies.length; i++) {
+    console.log(`I enjoy, ${hobbies[i]}`);
+};
+// Below is the same code as above but in a for...of loop
+const hobbies2 = ['singing','reading', 'coding', 'writing'];
+for (const hobby of hobbies2) {
+    console.log(`I enjoy, ${hobby}`);
 };
