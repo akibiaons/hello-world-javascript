@@ -330,15 +330,14 @@ This results in the printing of
 'Shoebill'
 'Cockatrice'
 */
-/*
+
 const strangeBirds2 = ['Shoebill', 'Cockatrice', 'Basan', 'Terrorbird', 'Parotia', 'Kakapo'];
 for (let i = 0; i < strangeBirds2.length; i++) {
     if (strangeBirds2[i] === 'Basan') {
         break;
     }
-    console.log(strangeBirds2[i]);
+    //console.log(strangeBirds2[i]);
 }
-*/
 /* Next we will be using the continue statement to skip over
 an iteration of the loop.
 */
@@ -347,6 +346,6 @@ for (const bird1 of strangeBirds1) {
     if (bird1 === 'Cow') {
         continue;
     }
-    console.log(bird1);
+    //console.log(bird1);
 }
-// the code above skipped over the string 'cow' since it was an imposter...
+// The code above skipped over the string 'cow' since it was an imposter...
