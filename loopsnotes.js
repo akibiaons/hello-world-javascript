@@ -265,8 +265,19 @@ apples
 grapes
 
 Lets break down the example from above:
-1.) In the first snippet we have the fruits array.
-2.) In the second part of our for...of loop: for (const fruit of fruits). We specify that
-we will iterate through the fruits array for each item (fruit) in the array.
+1.) In the first snippet we have 'fruits' which is the array we want to iterate over.
 
+2.) In the second part we set up our for...of loop: for (const fruit of fruits).
+This specifies that we will iterate through the array 'fruits' for each item 'fruit' in the array.
+
+3.) The variable 'fruit' is assigned a different value on each iteration of the loop. The variable
+may be declared with keywords such as: 'const', 'let', 'var', and 'let'. You can name the variable
+anything but it is helpful to use something related to the iterable object. 
+In the example above you will notice that the variable is named with the singular form of the plural array
+'fruit' of 'fruits'.
+
+some other examples: 'person' of a 'people' array, and 'puppy' of a 'puppies' array.
+
+4.) For each item in the array we print the value to the console.
+5.) The loop will start with the first element of the array and stop on the last element.
 */
