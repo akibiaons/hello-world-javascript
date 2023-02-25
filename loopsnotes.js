@@ -303,3 +303,12 @@ for (let i = 0; i < username2.length; i++) {
     console.log(username2[i]);
 };
 // The code above will print out 'Jane' and is just done with a for loop.
+// END OF LESSON 10: Using the for..of loop to iterate through a string
+//======================================================================================================
+// START OF LESSON 11: Using the for..of loop with BREAK & CONTINUE
+/*
+The for...of loop has advantages and is far easier to set up. However,
+sometimes you will need to control the iterations.
+
+- The break and continue statements are the best way to retain control of an iteration with a for...of loop. 
+*/
