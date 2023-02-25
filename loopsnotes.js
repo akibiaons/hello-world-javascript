@@ -349,3 +349,14 @@ for (const bird1 of strangeBirds1) {
     //console.log(bird1);
 }
 // The code above skipped over the string 'cow' since it was an imposter...
+// END OF LESSON 11: Using the for..of loop with BREAK & CONTINUE
+//======================================================================================================
+// START OF LESSON 12: Limitations of the for...of loop
+/*
+The for...of loop has limits when being used. For example:
+*/
+const nums = [1, 2, 3, 4, 5, 6];
+for (let i = nums.length -1; i >= 0; i--) {
+    console.log(nums[i]);
+}
+// What's the minus one do in the counter?
