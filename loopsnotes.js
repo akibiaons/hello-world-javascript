@@ -292,7 +292,7 @@ some other examples: 'person' of a 'people' array, and 'puppy' of a 'puppies' ar
 // START OF LESSON 10: Using the for..of loop to iterate through a string
 const username = ['Joe'];
 for (const char of username) {
-    console.log(char);
+    //console.log(char);
 };
 /*
 The for...of loop above will print out the following:
@@ -300,7 +300,7 @@ Joe
 */
 const username2 = ['Jane'];
 for (let i = 0; i < username2.length; i++) {
-    console.log(username2[i]);
+    //console.log(username2[i]);
 };
 // The code above will print out 'Jane' and is just done with a for loop.
 // END OF LESSON 10: Using the for..of loop to iterate through a string
@@ -311,4 +311,22 @@ The for...of loop has advantages and is far easier to set up. However,
 sometimes you will need to control the iterations.
 
 - The break and continue statements are the best way to retain control of an iteration with a for...of loop. 
+Below is an example of using the break statement:
+*/
+const strangeBirds = ['Shoebill', 'Cockatrice', 'Basan', 'Terrorbird', 'Parotia', 'Kakapo'];
+for (const bird of strangeBirds) {
+    if (bird === 'Basan') {
+        break;
+    }
+    console.log(bird);
+}
+/*
+What happened in the code above?
+
+- The code above will iterate through the birds array until it encounters the great "Basan" before
+ending..
+
+This results in the printing of 
+'Shoebill'
+'Cockatrice'
 */
