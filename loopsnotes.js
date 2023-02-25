@@ -170,7 +170,7 @@ do {
     countString = countString + i;
     i++;
 } while (i < 5);
-console.log(countString);
+//console.log(countString);
 /*
 - In the example above, the code block makes changes to the countString variable by appending the string from the i variable to it. 
 - The code block after the do keyword is executed once 
@@ -219,7 +219,7 @@ for (let i = 0; i < rapperArray.length; i++) {
         break;
     }
 }
-console.log('And if you dont know, now you know');
+//console.log('And if you dont know, now you know');
 // END OF LESSON 8: The break; statement
 //===================================================================================================================================================//===================================================================================================================================================
 // Next notes will be on the FOR...Of Loop
@@ -235,14 +235,13 @@ console.log('And if you dont know, now you know');
 */
 const hobbies = ['singing', 'reading', 'coding', 'writing'];
     for (let i = 0; i < hobbies.length; i++) {
-        console.log(`I enjoy, ${hobbies[i]}`);
+        //console.log(`I enjoy, ${hobbies[i]}`);
     };
 // Below is the same code as above but in a for...of loop
 const hobbies2 = ['singing','reading', 'coding', 'writing'];
     for (const hobby of hobbies2) {
-        console.log(`I enjoy, ${hobby}`);
+        //console.log(`I enjoy, ${hobby}`);
     };
-
 // Both examples print out the following:
 /*
 I enjoy singing.
@@ -257,7 +256,7 @@ Below is an example...
 */
 const fruits= ['oranges', 'apples', 'grapes'];
     for (const fruit of fruits){
-        console.log(fruit);
+        //console.log(fruit);
     };
 /*
 The above example prints out the following:
