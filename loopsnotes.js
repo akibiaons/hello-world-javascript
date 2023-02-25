@@ -86,6 +86,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
 - Nested loops are useful for comparing elements in two different arrays. They are loops within loops.
 - Below is an example:
 */
+/*
 const myArray = [6, 19, 20];
 const yourArray = [19, 81, 2];
 for (let i = 0; i < myArray.length; i++) {
@@ -95,6 +96,7 @@ for (let i = 0; i < myArray.length; i++) {
         }
     }
 };
+*/
 //Above we have the outer array, {myArray} and the inner array myArray[i], which will run its entirety until it finds a match with an element in the inner array.
 
 /*
@@ -108,12 +110,14 @@ let mutualFollowers = [];
 /*Below is a nested loop that iterated through bobsFriends as th outer and tinasFriends as the inner. If the current element from the outer loop
 - is the same as the current element from the inner loop, push that element into the mutualFollowers array.
 */
+/*
 for (let i = 0; i < bobsFriends.length; i++) {
     for (let j = 0; j < tinasFriends.length; j++){
         if (bobsFriends[i] === tinasFriends[j])
             console.log(mutualFollowers.push(bobsFriends[i]));
     }
 };
+*/
 //END OF LESSON 5: Nested Loops
 //===================================================================================================================================================
 // MORE LOOPS NOTES......
@@ -121,9 +125,10 @@ for (let i = 0; i < bobsFriends.length; i++) {
 for (let i = 0; i < 5; i++) {
     //console.log('loop'); // We will see loop five times in the console.
 };
-
+/*
 const user = {'firstName': 'John', 'lastName': 'Doe'}
 for (key in user) console.log(user[key]);
+*/
 // END OF SCRATCH NOTES FOR JAVASCRIPT
 //===================================================================================================================================================
 // START OF LESSON 6: The While Loop
@@ -133,11 +138,13 @@ for (let counterOne = 0; counterOne < 4; counterOne++) {
     //console.log(counterOne);
 };
 // A While loop that prints 1, 2, 3.
+/*
 let counterTwo = 1;
 while (counterTwo < 4) {
     console.log(counterTwo);
     counterTwo++;
 }
+*/
 /*
 - Let's break down what's happening with our while loop syntax. 
 - The counterTwo variable is declared before the loop, we can access it within our while loop since it is global scope.
@@ -281,3 +288,9 @@ some other examples: 'person' of a 'people' array, and 'puppy' of a 'puppies' ar
 4.) For each item in the array we print the value to the console.
 5.) The loop will start with the first element of the array and stop on the last element.
 */
+//======================================================================================================
+// START OF LESSON 10: Using the for..of loop to iterate through a string
+const username = ['Joe'];
+for (const char of username) {
+    console.log(char);
+};
