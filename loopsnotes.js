@@ -330,3 +330,12 @@ This results in the printing of
 'Shoebill'
 'Cockatrice'
 */
+/*
+const strangeBirds2 = ['Shoebill', 'Cockatrice', 'Basan', 'Terrorbird', 'Parotia', 'Kakapo'];
+for (let i = 0; i < strangeBirds2.length; i++) {
+    if (strangeBirds2[i] === 'Basan') {
+        break;
+    }
+    console.log(strangeBirds2[i]);
+}
+*/
