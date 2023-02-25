@@ -86,7 +86,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
 - Nested loops are useful for comparing elements in two different arrays. They are loops within loops.
 - Below is an example:
 */
-/*
+
 const myArray = [6, 19, 20];
 const yourArray = [19, 81, 2];
 for (let i = 0; i < myArray.length; i++) {
@@ -96,7 +96,7 @@ for (let i = 0; i < myArray.length; i++) {
         }
     }
 };
-*/
+
 //Above we have the outer array, {myArray} and the inner array myArray[i], which will run its entirety until it finds a match with an element in the inner array.
 
 /*
@@ -110,14 +110,14 @@ let mutualFollowers = [];
 /*Below is a nested loop that iterated through bobsFriends as th outer and tinasFriends as the inner. If the current element from the outer loop
 - is the same as the current element from the inner loop, push that element into the mutualFollowers array.
 */
-/*
+
 for (let i = 0; i < bobsFriends.length; i++) {
     for (let j = 0; j < tinasFriends.length; j++){
         if (bobsFriends[i] === tinasFriends[j])
             console.log(mutualFollowers.push(bobsFriends[i]));
     }
 };
-*/
+
 //END OF LESSON 5: Nested Loops
 //===================================================================================================================================================
 // MORE LOOPS NOTES......
@@ -357,6 +357,6 @@ The for...of loop has limits when being used. For example:
 */
 const nums = [1, 2, 3, 4, 5, 6];
 for (let i = nums.length -1; i >= 0; i--) {
-    console.log(nums[i]);
+    //console.log(nums[i]);
 }
 // What's the minus one do in the counter?
