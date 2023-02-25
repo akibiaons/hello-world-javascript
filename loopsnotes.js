@@ -294,3 +294,12 @@ const username = ['Joe'];
 for (const char of username) {
     console.log(char);
 };
+/*
+The for...of loop above will print out the following:
+Joe
+*/
+const username2 = ['Jane'];
+for (let i = 0; i < username2.length; i++) {
+    console.log(username2[i]);
+};
+// The code above will print out 'Jane' and is just done with a for loop.
