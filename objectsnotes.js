@@ -13,7 +13,7 @@ let spaceShip = {
     'Rocket': 'Turbo Fuel',
     color: 'silver'
 };
-console.log(spaceShip);
+//console.log(spaceShip);
 // END of Lesson 1: Creating Object Literals
 //================================================================================================================================
 // Start of Lesson 2: Accessing Properties
@@ -31,8 +31,8 @@ let tesla = {
     model: 'Model 3',
     color:'gray'
 };
-console.log(tesla.model); // Is an example of using the dot notation with an object and it'll return 'Model 3' to the console.
-console.log(tesla.color); // Is an example of using the dot notation with an object and it'll return 'gray' to the console.
+//console.log(tesla.model); // Is an example of using the dot notation with an object and it'll return 'Model 3' to the console.
+//console.log(tesla.color); // Is an example of using the dot notation with an object and it'll return 'gray' to the console.
 // Below is an exersise where we use dot notation to call upon an object's properties.
 let spaceship = {
     homePlanet: 'Earth',
@@ -44,4 +44,43 @@ let spaceship = {
   // Below will be a variable called crewCount that is equal to the numCrew property..
   let crewCount = spaceship.numCrew;
   let planetArray = spaceship.flightPath;
-  console.log(crewCount, planetArray);
+  //console.log(crewCount, planetArray);
+  // END of Lesson 2: Accessing Properties
+  //=================================================================================================================================
+  // Start of Lesson 3: Bracket Notation
+  /*
+  The second way to access an object's properties is through the bracket notation.
+    - Bracket notation was what we previously used when indexing arrays. 
+  */
+  ['A', 'B', 'C'][0]; //This here will return 'A'  
+  /*
+  To use bracket notation to access an objects property (key) we will pass
+  in the key as a string.
+  */
+ spaceShip['Fuel Type'];
+
+ /*
+ Here are a few things to remember when using bracket notation:
+   - We MUST use bracket notation to access keys that have numbers, spaces, or special characters in them.
+   - We will get an error, see below and open console for more information
+ */
+let fordShip = {
+    'Fuel Type': 'Jet Disel',
+    'Active Mission': true,
+    homePlanet: 'Earth',
+    numCrew: 5
+};
+fordShip['Fuel Type']; // Returns 'Jet Disel'
+fordShip['Active Mission']; // Returns 'True'
+fordShip['homePlanet']; // Returns 'Earth'
+fordShip['numCrew']; // Returns '5'
+
+/*
+With bracket notation, we can also use a variable insde of the bracket to select the 
+- keys of an object. 
+Take a look at this function below to see an example:
+*/
+let returnAnyProp = (object, property) =>
+object[property];
+
+returnAnyProp(spaceShip, 'homePlanet'); // Returns 'Earth'
