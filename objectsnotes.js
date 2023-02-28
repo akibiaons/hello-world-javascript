@@ -113,5 +113,5 @@ Objects assigned to properties are mutable and can be changed after they are wri
     //mercedesShip = 'Alien'; // This will create an error.
      mercedesShip.type = 'Luxury AV'; // This will change the type property to 'Luxury AV'
      mercedesShip.speed = '50 Mach'; // This will change the speed property to '50 Mach'
-     console.log(mercedesShip.type); // Will print 'Luxury AV'
-     console.log(mercedesShip.speed); // Will print '50 Mach'
+     //console.log(mercedesShip.type); // Will print 'Luxury AV'
+     //console.log(mercedesShip.speed); // Will print '50 Mach'
