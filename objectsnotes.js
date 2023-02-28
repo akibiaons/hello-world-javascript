@@ -33,3 +33,13 @@ let tesla = {
 };
 console.log(tesla.model); // Is an example of using the dot notation with an object and it'll return 'Model 3' to the console.
 console.log(tesla.color); // Is an example of using the dot notation with an object and it'll return 'gray' to the console.
+// Below is an exersise where we use dot notation to call upon an object's properties.
+let spaceship = {
+    homePlanet: 'Earth',
+    color: 'silver',
+    'Fuel Type': 'Turbo Fuel',
+    numCrew: 5,
+    flightPath: ['Venus', 'Mars', 'Saturn']
+  };
+  // Below will be a variable called crewCount that is equal to the numCrew property..
+  let crewCount = spaceship.numCrew;
