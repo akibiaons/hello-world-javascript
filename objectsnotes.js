@@ -75,6 +75,9 @@ fordShip['Active Mission']; // Returns 'True'
 fordShip['homePlanet']; // Returns 'Earth'
 fordShip['numCrew']; // Returns '5'
 
+let isActive = fordShip['Active Mission'];
+console.log(isActive); // Returns 'True'
+
 /*
 With bracket notation, we can also use a variable insde of the bracket to select the 
 - keys of an object. 
