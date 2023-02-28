@@ -87,3 +87,17 @@ let returnAnyProp = (object, property) =>
 object[property];
 
 returnAnyProp(spaceShip, 'homePlanet'); // Returns 'Earth'
+// End of Lesson 3: Bracket Notation
+//=================================================================================================================================
+// Start of Lesson 4: Property Assignment
+/*
+Objects assigned to properties are mutable and can be changed after they are written out.
+    - We can use both a dot notation or bracket notation to change to object's properties.
+    - Below is an example of both methods in action:
+*/
+    let starship = {
+        'Fuel Type': 'vibranium',
+        color: 'silver'
+    };
+    starship['Fuel Type'] = 'Vegetable Oil'; // will change from 'vibranium' to 'Vegetable Oil'
+    starship.color = 'gold'; // will change from 'silver' to 'gold'
