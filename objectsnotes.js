@@ -38,8 +38,10 @@ let spaceship = {
     homePlanet: 'Earth',
     color: 'silver',
     'Fuel Type': 'Turbo Fuel',
-    numCrew: 5,
+    numCrew: '5 Members',
     flightPath: ['Venus', 'Mars', 'Saturn']
   };
   // Below will be a variable called crewCount that is equal to the numCrew property..
   let crewCount = spaceship.numCrew;
+  let planetArray = spaceship.flightPath;
+  console.log(crewCount, planetArray);
