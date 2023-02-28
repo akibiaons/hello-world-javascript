@@ -14,3 +14,22 @@ let spaceShip = {
     color: 'silver'
 };
 console.log(spaceShip);
+// END of Lesson 1: Creating Object Literals
+//================================================================================================================================
+// Start of Lesson 2: Accessing Properties
+/*
+There are two ways to acess an object properties.
+    - The first way is through the dot notation method.
+      Dot notation is a method that we have learned earlier in the course.
+*/
+    'hello'.length; // This is an example of the dot notation method.
+/*
+With the dot notation method we just write the objects name followed by the key name. 
+Below is an example of the dot notation method:
+*/
+let tesla = {
+    model: 'Model 3',
+    color:'gray'
+};
+console.log(tesla.model); // Is an example of using the dot notation with an object and it'll return 'Model 3' to the console.
+console.log(tesla.color); // Is an example of using the dot notation with an object and it'll return 'gray' to the console.
