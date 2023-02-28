@@ -101,3 +101,17 @@ Objects assigned to properties are mutable and can be changed after they are wri
     };
     starship['Fuel Type'] = 'Vegetable Oil'; // will change from 'vibranium' to 'Vegetable Oil'
     starship.color = 'gold'; // will change from 'silver' to 'gold'
+    /*
+    There are a few things that can occure when changing a property.
+        - If the property already exists, it will be overwritten and replaced with the new value.
+        - If the property does not exist, it will be added to the object.
+
+    Also note that you cannot change the property of an object asssigned with the const variable. But it is mutable.
+    Below is the perfect example:
+    */
+   const mercedesShip = {type: 'Luxury Shuttle'};
+    //mercedesShip = 'Alien'; // This will create an error.
+     mercedesShip.type = 'Luxury AV'; // This will change the type property to 'Luxury AV'
+     mercedesShip.speed = '50 Mach'; // This will change the speed property to '50 Mach'
+     console.log(mercedesShip.type); // Will print 'Luxury AV'
+     console.log(mercedesShip.speed); // Will print '50 Mach'
