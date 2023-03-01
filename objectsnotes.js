@@ -194,4 +194,4 @@ let battleShip = {
             name: 'Gun 41. Nato'
         }
     }
-}
+};
