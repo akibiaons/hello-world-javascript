@@ -188,10 +188,20 @@ let battleShip = {
     },
     'weapons': {
         cannons: {
-            name: 'Precision Beam',
-            name: 'Cannon AB23',
-            name: 'Gun.300',
-            name: 'Gun 41. Nato'
+            name1: 'Precision Beam',
+            name2: 'Cannon AB23',
+            name3: 'Gun.300',
+            name4: 'Gun 41. Nato'
         }
     }
 };
+/* 
+Above is an example of a nested object. Remember we can chain operators to access nested properties.
+Here's an example of chaining operators:
+*/
+battleShip['weapons'].cannons.name1; // Returns 'Precision Beam'
+/*
+In the perceding code the computer first evaluates battleShip.['weapons'].
+  - We then access the cannons property by using the dot operator and the name of the
+  percision beam by using the dot operator again.
+*/
