@@ -148,3 +148,50 @@ const alienShip2 = {
 alienShip.invade(); 
 alienShip2.invade();
 // To invoke the object methods we just need to append the object's name with the method name and a parenthesis.
+// End of Lesson 5: Methods
+//=================================================================================================================================
+// Start of Lesson 6: Nested Objects
+/*
+Objects are often nested and can have properties within properties.
+Below is an example of a nested object using the spaceship examples similar to above:
+*/
+let battleShip = {
+    crew: {
+        captain: {
+            name: 'Jon Snow',
+            specialty: 'Precision Beam, navigation, management'
+        },
+        firstmate: {
+            name: 'Tim Gray',
+            specialty: 'Repairs & Tech'
+        },
+        crewmember1: {
+            name: 'Ailken Riley',
+            specialty: 'Communications'
+        },
+        crewmember2: {
+            name: 'Jona Morales',
+            specialty: 'Cannon AB23'
+        },
+        crewmember3: {
+            name: 'Joe Mama',
+            specialty: 'Gun .300'
+        },
+        crewmember4: {
+            name: 'Curtis Brown',
+            specialty: 'Gun 41. Nato'
+        }
+    },
+    engine: {
+        type: 'Parallax',
+        'speed': '1 Lightyear'
+    },
+    'weapons': {
+        cannons: {
+            name: 'Precision Beam',
+            name: 'Cannon AB23',
+            name: 'Gun.300',
+            name: 'Gun 41. Nato'
+        }
+    }
+}
