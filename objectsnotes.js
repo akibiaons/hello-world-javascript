@@ -205,3 +205,96 @@ In the perceding code the computer first evaluates battleShip.['weapons'].
   - We then access the cannons property by using the dot operator and the name of the
   percision beam by using the dot operator again.
 */
+// End of Lesson 6: Nested Objects
+//=================================================================================================
+// Start of Lesson 7: Pass by Reference
+/*
+Objects are passed by reference, which means that we pass a variable assigned into an object into a 
+function as an argument. 
+
+The computer will intrepret the parameter name as pointing to the space in memory holding that object.
+Below is an example...
+*/
+const mamalona = {
+    type: 'Truck',
+    color: 'Red'
+};
+
+let paintIt = obj => {
+    obj.color = 'red'
+};
+paintIt(mamalona);
+mamalona.color; //Returns 'red' after the paintIt function creates a .color reassignment.
+// Our function paintIt permanently changes the color property of the mamalona object to 'red'.
+// Below is an example of reassignment that does not work:
+let veichle = {
+    type: 'Sports Car',
+    color: 'red'
+};
+let tryReassignment = obj2 => {
+    obj2 = {
+        identified: false,
+        'transport type': 'luxury vehicle'
+    }
+    console.log(obj2); // Prints {identified: false, 'transport type': 'car'}
+};
+tryReassignment(veichle);
+veichle // 
+
+veichle = {
+    identified: false,
+    'transport type': 'car'
+}; // Regular assignment still works.
+
+/* 
+In the code above, we declared the veichle object with let. This allows us to reassign it to a 
+new object with identified and 'transport type' properties.
+
+When we passed the veichle into that function, obj became a reference to the memory location of the veichle object. 
+but not the veichle variable. This is because the obj2 parameter of the tryReassignment function is a variable
+in its own right. 
+
+The body of tryReassignment has no knowledge of the veichle variable at all. 
+
+When we did the reassiignment in the body of tryReassignment, the obj2 variable came to refer to the memory location
+of the object. 
+*/
+// End of Lesson 7: Pass by Reference
+//===================================================================================================================
+// Start of Lesson 8: Looping Through Objects
+/*
+We will cover how to loop through an object. Looping through objects is different than arrays
+due to arrays numerical indexing. Key-value pairs are not ordered though.
+
+We use the for...in statement to iterate through each property in an object.
+*/
+let starShip = {
+    crew: {
+        captain: {
+            name: 'Lilly',
+            degree: 'Computer Engineering',
+            cheerTeam () {
+                console.log('We got this team!');
+            }
+        },
+        'cheif officer': {
+            name: 'Dan',
+            degree: 'Areospace Engineering',
+            agree() {console.log('Aye Aye Captain!');}
+        },
+        medic: {
+            name: 'Clementine',
+            degree: 'Physics',
+            announce(){console.log('Jets are on!');}
+        },
+        translator: {
+            name: 'Shauna',
+            degree: 'Biology',
+            powerFuel(){console.log('The tank is full!');}
+        }
+    }
+};
+// for in 
+for (let crewMember in starShip.crew) {
+    console.log(`${crewMember}: ${starShip.crew[crewMember].name}`);
+}
