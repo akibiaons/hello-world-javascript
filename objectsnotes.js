@@ -313,4 +313,4 @@ Here is a quick review of what was learned in this lesson.
     - Objects are mutable-we can change their properties even when their declared with const.
     - Objects are passed by reference, when we make changes to an object passed into a function, those changes are permanent.
     - We can iterate through objects using the for...in syntax.
-*/ 
+*/
