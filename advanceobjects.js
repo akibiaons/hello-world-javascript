@@ -55,3 +55,29 @@ const goat3 = {
     }
 };
 goat3.diet(); // Will print out 'herbivore'
+
+// Below is an example of using the 'this' keyword with object methods.
+const robot = {
+    model: '1E78V2',
+    energyLevel: 100,
+    provideInfo () {
+      return (`I am ${this.model} and my current energy level is ${this.energyLevel}.`);
+    }
+  };
+  console.log(robot.provideInfo());
+// End of lesson 1: the 'this' keyword
+//================================================================================================
+// Start of Lesson 2: Arrow Functions and This.
+/*
+In the previous exercise we see that the calling object is the object the method belongs to.
+When using the 'this' keyword the value of 'this' becomes the calling method, however, it becomes 
+more complicated with arrow functions for methods as seen below:
+*/
+const lion = {
+    dietType: 'carnivore',
+    soundType: 'roar',
+    makeSound: () => {
+        console.log(this.soundType);
+    },
+};
+lion.makeSound(); // Will print undefined, and we are using the 'this' keyword similar to the exercise above in lesson 1.
