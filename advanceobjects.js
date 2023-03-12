@@ -23,7 +23,7 @@ const goat1 = {
     }
 }
 // In our goat object above we have a .makeSound() method. We can invoke the .makeSound() method on goat.
-goat1.makeSound(); // Prints 'Baaa'
+//goat1.makeSound(); // Prints 'Baaa'
 /*
 Great! We now have an object that can print baa to the console. Next we will be adding a new method
 called diet that prints the goats diet type.
@@ -38,13 +38,13 @@ const goat = {
         console.log(dietType);
     }*/
 };
-goat.diet(); // Will producd a reference error as dietType is not defined.
+//goat.diet(); // Will producd a reference error as dietType is not defined.
 /* 
 It is strange that above the dietType is not defined even through it is a property of goat.
 it is because inside the scope of the diet method, we don't automatically have access to the
 other properties of the goat object.
 */
-// This is where the this keyword comes to the rescue. If we use the 'this' keyword we can get dietType to work.
+//This is where the this keyword comes to the rescue. If we use the 'this' keyword we can get dietType to work.
 const goat3 = {
     dietType: 'herbivore',
     makeSound() {
@@ -54,3 +54,4 @@ const goat3 = {
         console.log(this.dietType);
     }
 };
+goat3.diet(); // Will print out 'herbivore'  
