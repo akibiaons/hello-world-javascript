@@ -54,4 +54,4 @@ const goat3 = {
         console.log(this.dietType);
     }
 };
-goat3.diet(); // Will print out 'herbivore'  
+goat3.diet(); // Will print out 'herbivore'
