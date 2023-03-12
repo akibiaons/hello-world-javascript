@@ -81,3 +81,7 @@ const lion = {
     },
 };
 lion.makeSound(); // Will print undefined, and we are using the 'this' keyword similar to the exercise above in lesson 1.
+/*
+Arrow functions don't work the same because they bind, tie, and already defined this value to the function
+itself and isn't calling the object.
+*/
