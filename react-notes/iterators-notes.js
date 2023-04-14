@@ -71,3 +71,17 @@ console.log(favoriteWords);
 console.log(longFavoriteWords);
 // End of lesson 4: The filter method
 //================================================================================================================================
+//Start of Lesson 5: The .findIndex() method
+const Animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
+
+const foundAnimal = animals.findIndex(num => {
+  return num === 'elephant';
+});
+
+const startsWithS = animals.findIndex(letter => {
+  return letter[0] === 's';
+});
+// This was a beast exercise...The second challenge had me reaching to the depths of hell to find a solution.
+// End of Lesson 5: The .findIndex method 
+//================================================================================================================================
+// Start of Lesson 6: The .reduce() method
