@@ -138,3 +138,15 @@ const smallerNums = nums.map(num => num - 5); // In this line we have .map(), wh
 
 // Choose a method that will return a boolean value
 nums.some(num => num < 0); // .some() is used in this instancd to return a boolean value...
+
+// JavaScript Iterator Review:
+/*
+- The .forEach() iterator method is used to execute the same code on every element in the array but does not change the array and returns 'undefined'
+in example lesson2 we have a fruits array that is iterated over and will returned undefined to the console.
+================================================================
+- The .map() method executes the same code on every element in the array and returns a new array with the updated elements.
+================================================================
+- The .filter() checks every element in the array to see if it meets a certain criteria, and returns a new array with the elements that return truhty for the criteria.
+================================================================
+-  
+*/
