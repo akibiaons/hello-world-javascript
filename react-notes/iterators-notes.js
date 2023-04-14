@@ -148,5 +148,6 @@ in example lesson2 we have a fruits array that is iterated over and will returne
 ================================================================
 - The .filter() checks every element in the array to see if it meets a certain criteria, and returns a new array with the elements that return truhty for the criteria.
 ================================================================
--  
+- .findIndex() returns the index of the first element in an array that satisfies a condition in the callback function.
+It returns -1 if none of the elements in the array satisfy the condition.
 */
