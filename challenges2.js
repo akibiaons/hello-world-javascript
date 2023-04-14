@@ -55,3 +55,14 @@ const milesToKilometers = (miles) => {
 };
 console.log(milesToKilometers(10)); // Should output 16
 // End of daily challenge 1/29/23
+
+// Below I will write out a function that prints out even numbers from 1 - 10
+
+const num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const printNum = (num) => {
+    if (num === 2 && num === 4 && num === 6 && num === 8 && num === 10) {
+        return `${num}`;
+    }
+};
+
+const whales = ['Sperm Whale', 'Orca Whale', 'Great White Shark'];
