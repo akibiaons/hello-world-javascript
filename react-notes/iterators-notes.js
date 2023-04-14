@@ -112,3 +112,29 @@ console.log(interestingWords.every((word) => {
   return word.length > 5;
 } ));
 // End of Lesson 7: Iterator Documentation 
+//================================================================================================================================
+// Practice with Choosing the Right Iterator
+ // Below is some code that once had the word method, instead of the correct iterator methods
+
+const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
+
+const nums = [1, 50, 75, 200, 350, 525, 1000];
+
+//  Choose a method that will return undefined
+cities.forEach(city => console.log('Have you visited ' + city + '?')); // In this case, .forEach() was added as it returns undefined...
+
+// Choose a method that will return a new array
+const longCities = cities.filter(city => city.length > 7); // Filter was added as it returns a new array...
+
+// Choose a method that will return a single value
+const word = cities.reduce((acc, currVal) => { // In this case, .reduce() is added to the variable as it shows/returns a single value...
+  return acc + currVal[0]
+}, "C");
+
+console.log(word)
+
+// Choose a method that will return a new array
+const smallerNums = nums.map(num => num - 5); // In this line we have .map(), which is being used to return an entire new array...
+
+// Choose a method that will return a boolean value
+nums.some(num => num < 0); // .some() is used in this instancd to return a boolean value...
