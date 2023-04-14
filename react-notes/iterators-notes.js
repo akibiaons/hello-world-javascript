@@ -85,3 +85,30 @@ const startsWithS = animals.findIndex(letter => {
 // End of Lesson 5: The .findIndex method 
 //================================================================================================================================
 // Start of Lesson 6: The .reduce() method
+const newNumbers = [1, 3, 5, 7];
+
+const newSum = newNumbers.reduce((accumulator, currentValue) => {
+  console.log('The value of accumulator', accumulator);
+  console.log('The value of currentValue: ', currentValue);
+  return accumulator + currentValue;
+}, 10);
+console.log(newSum);
+// End of Lesson 6: The .reduce() method
+//================================================================================================================================
+// Start of Lesson 7: Iterator Documentation
+const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+// Something is missing in the method call below
+
+console.log(words.some((word) => {
+  return word.length < 6;
+}));
+
+// Use filter to create a new array
+const interestingWords = words.filter(word => word.length > 5);
+
+// Make sure to uncomment the code below and fix the incorrect code before running it
+console.log(interestingWords.every((word) => { 
+  return word.length > 5;
+} ));
+// End of Lesson 7: Iterator Documentation 
