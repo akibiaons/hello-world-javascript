@@ -150,4 +150,6 @@ in example lesson2 we have a fruits array that is iterated over and will returne
 ================================================================
 - .findIndex() returns the index of the first element in an array that satisfies a condition in the callback function.
 It returns -1 if none of the elements in the array satisfy the condition.
+================================================================
+The .reduce() method iterates through the array and takes the values of the elements and returns a single value.
 */
