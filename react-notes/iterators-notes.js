@@ -1,3 +1,9 @@
+// Higher order Function notes pt1:
+/**
+-  
+*/
+//=================================================================================================================================================================================
+// Below is some scratch work for the iterator notes
 const artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
 artists.forEach(artist => {
